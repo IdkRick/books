@@ -1,0 +1,89 @@
+@media only screen and (max-width: 1024px) {
+   /* Section 1 */
+   .section-1 {
+      padding: 20vmin 6vmin;
+   }
+
+   .section-1 .row .col-md-6 .pray img {
+      width: 85%;
+   }
+   
+   .section-1 .row .col-md-6 .panel {
+      top: 8vmin;
+      left: -24vmin;
+      padding: 10vmin 5vmin 20vmin 10vmin;
+   }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+   /* Section 1 */
+   .section-1 .row .col-md-6 .panel {
+      position: initial;
+      width: initial;
+      height: initial;
+   }
+
+   /* Section 2 */
+   .section-2 .cover {
+      background-position: 0rem -4rem;
+      
+   }
+
+   .section-2 .cover .content h1 {
+      font-size: 7vmin;
+   }
+
+   .section-2 .numbers .rect {
+      width: 10rem;
+      height: 8rem;
+   }
+
+   .section-2 .numbers .rect h1 {
+      font-size: 2rem;
+   }
+
+   /* Section 3 */
+   .section-3 {
+      height: inherit;
+      padding: 10vmin !important;
+   }
+
+   .section-3 .row h1 {
+      padding: 6vmin 4vmin;
+   }
+  
+}
+
+@media only screen and (max-width: 425px) {
+   header .navbar-brand {
+      padding-left: 0;
+   }
+
+   /* Section 2 */
+   .section-2 .cover {
+      background-position: 0rem -2rem;
+   }
+
+   .section-2 .cover .content h1 {
+      font-size: 6vmin;
+   }
+
+   /* Section 3 */
+   .section-3 .platform {
+      border-radius: 6px;
+   }
+
+   .section-3 .platform p {
+      font-size: 2.5vmin;
+   }
+
+   .section-3 .platform h4 {
+      font-size: 3.4vmin;
+   }
+
+   .section-3 .platform i {
+      font-size: 7vmin;
+   }
+}
